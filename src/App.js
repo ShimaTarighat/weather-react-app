@@ -9,8 +9,6 @@ export default function App() {
       <h2>
         <Search />
       </h2>
-      <br />
-      <Forecast />
     </div>
   );
 }

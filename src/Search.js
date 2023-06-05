@@ -13,6 +13,7 @@ export default function Search() {
     } else {
       alert(`Enter a city`);
     }
+    Search("Zahedan");
   }
 
   if (message) {

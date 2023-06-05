@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Forecast from "./Forecast";
 import axios from "axios";
 import "./Weather.css";
 
@@ -20,6 +21,8 @@ export default function Weather({ city }) {
     setWind(wind);
     let icon = response.data.weather[0].icon;
     setIcon(`http://openweathermap.org/img/wn/${icon}@2x.png`);
+
+    Forecast.getForecast(response.data.coord);
   }
 
   let url = "https://api.openweathermap.org/data/2.5/weather?";
@@ -41,6 +44,7 @@ export default function Weather({ city }) {
             <img src={icon} alt="weather icon" width="150" />
           </li>
         </ul>
+        <Forecast />
       </div>
     );
   } else {
