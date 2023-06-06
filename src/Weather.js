@@ -44,7 +44,6 @@ export default function Weather({ city }) {
             <img src={icon} alt="weather icon" width="150" />
           </li>
         </ul>
-        <Forecast />
       </div>
     );
   } else {

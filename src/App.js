@@ -8,7 +8,20 @@ export default function App() {
       <h1>Weather App</h1>
       <h2>
         <Search />
+        <br />
+        <Forecast />
       </h2>
+      <small>
+        <a
+          href="//https://github.com/ShimaTarighat/weather-react-app.git"
+          target="_blank"
+          rel="noreferrer"
+          className="text-decoration-none"
+        >
+          open-source code{" "}
+        </a>
+        by Shima Miri
+      </small>
     </div>
   );
 }

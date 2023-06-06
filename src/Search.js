@@ -18,7 +18,7 @@ export default function Search() {
 
   if (message) {
     return (
-      <div className="Search">
+      <div className="Search border">
         <form onSubmit={handleSubmit}>
           <input
             type="search"
