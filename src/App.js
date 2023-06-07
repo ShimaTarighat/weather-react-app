@@ -4,13 +4,15 @@ import "./styles.css";
 
 export default function App() {
   return (
-    <div className="App m-4">
+    <div className="container App m-4">
       <h1>Weather App</h1>
-      <h2>
-        <Search />
+      <div className="container border rounded m-5 p-2">
+        <h2>
+          <Search />
+        </h2>
         <br />
         <Forecast />
-      </h2>
+      </div>
       <small>
         <a
           href="//https://github.com/ShimaTarighat/weather-react-app.git"

@@ -92,6 +92,54 @@ export default function Forecast() {
         </div>
         <div>15°C</div>
       </div>
+      <div className="col">
+        <div>Sun</div>
+        <div>
+          <ReactAnimatedWeather
+            icon="PARTLY_CLOUDY_DAY"
+            color="black"
+            size={50}
+            animate={true}
+          />
+        </div>
+        <div>15°C</div>
+      </div>
+      <div className="col">
+        <div>Mon</div>
+        <div>
+          <ReactAnimatedWeather
+            icon="CLOUDY"
+            color="black"
+            size={50}
+            animate={true}
+          />
+        </div>
+        <div>15°C</div>
+      </div>
+      <div className="col">
+        <div>Tue</div>
+        <div>
+          <ReactAnimatedWeather
+            icon="RAIN"
+            color="black"
+            size={50}
+            animate={true}
+          />
+        </div>
+        <div>15°C</div>
+      </div>
+      <div className="col">
+        <div>Wed</div>
+        <div>
+          <ReactAnimatedWeather
+            icon="RAIN"
+            color="black"
+            size={50}
+            animate={true}
+          />
+        </div>
+        <div>15°C</div>
+      </div>
     </div>
   );
 }

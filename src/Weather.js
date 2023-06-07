@@ -33,7 +33,7 @@ export default function Weather({ city }) {
 
   if (temperature) {
     return (
-      <div className="Weather m-4">
+      <div className="Weather m-4 text-start">
         <ul>
           <li>Temperature: {temperature}°C</li>
           <li> Description: {description}</li>
