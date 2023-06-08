@@ -21,8 +21,6 @@ export default function Weather({ city }) {
     setWind(wind);
     let icon = response.data.weather[0].icon;
     setIcon(`http://openweathermap.org/img/wn/${icon}@2x.png`);
-
-    Forecast.getForecast(response.data.coord);
   }
 
   let url = "https://api.openweathermap.org/data/2.5/weather?";
