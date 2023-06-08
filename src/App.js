@@ -15,7 +15,7 @@ export default function App() {
       </div>
       <small>
         <a
-          href="//https://github.com/ShimaTarighat/weather-react-app.git"
+          href="https://github.com/ShimaTarighat/weather-react-app.git"
           target="_blank"
           rel="noreferrer"
           className="text-decoration-none"
